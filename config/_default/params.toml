@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "ladt"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+titleAddition = "learnAnything.tech"
+description = "learnAnything.tech was built to curate all the amazing free-to-use content to learn anything in tech and also to make the authors work more distributable."
 
 ## Open Graph
 images = ["doks.png"]

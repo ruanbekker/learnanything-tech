@@ -1,9 +1,9 @@
 ---
-title : "Modern Documentation Theme"
-description: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-lead: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-date: 2020-10-06T08:47:36+00:00
-lastmod: 2020-10-06T08:47:36+00:00
+title : "learnAnything.tech"
+description: "learnAnything.tech was built to curate all the amazing free-to-use content to learn anything in tech and also with the idea in mind to link back to the creators for more visibility."
+lead: "learnAnything.tech was built to curate all the amazing free-to-use content to learn anything in tech and also with the idea in mind to link back to the creators for more visibility."
+date: 2021-09-01T22:00:00+00:00
+lastmod: 2021-09-01T22:00:00+00:00
 draft: false
 images: []
 ---

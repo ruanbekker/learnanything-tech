@@ -1,4 +1,10 @@
 [[docs]]
+  name = "Ansible"
+  weight = 5
+  identifier = "ansible"
+  url = "/docs/ansible/"
+
+[[docs]]
   name = "Prologue"
   weight = 10
   identifier = "prologue"

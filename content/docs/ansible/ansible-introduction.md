@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Ansible Introduction"
 description: "Ansible is an open source IT automation engine that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes."
 lead: "Configuration Management"
 date: 2022-06-06T08:48:57+02:00

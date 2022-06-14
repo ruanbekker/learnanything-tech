@@ -1,0 +1,9 @@
+---
+title: "Welcome"
+description: "Welcome to learnanything-tech.netlify.app"
+lead: ""
+date: 2022-06-06T08:49:15+02:00
+lastmod: 2022-06-06T08:49:15+02:00
+draft: false
+images: []
+---

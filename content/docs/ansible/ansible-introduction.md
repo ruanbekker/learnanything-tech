@@ -9,16 +9,19 @@ images: []
 menu:
   docs:
     parent: "ansible"
-weight: 100
+weight: 10
 toc: true
 ---
 
-## Get started
+## What is Ansible
 
-There are two main ways to get started with Doks:
+Ansible is an open source automation tool that automates provisioning, configuration management, application deployment, orchestration, and many other manual IT processes.
+
+[Read more](https://www.redhat.com/en/technologies/management/ansible/what-is-ansible) on their website.
 
 ### Tutorial
 
 {{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
 
 Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+

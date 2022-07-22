@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  hugo-web:
+    container_name: hugo-web
+    restart: unless-stopped
+    cpus: 0.5
+    mem_limit: 256m
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        APP_URL: http://localhost:8080
+    ports:
+      - 8080:80
+    networks:
+      - public
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+
+networks:
+  public:
+    name: public

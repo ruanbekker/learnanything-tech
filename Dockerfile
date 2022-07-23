@@ -5,7 +5,7 @@ RUN npm install
 
 ARG APP_URL
 ENV APP_URL=$APP_URL
-RUN bin/hugo/hugo  --print-mem --gc --minify -b "$APP_URL"
+RUN bin/hugo/hugo  --print-mem --gc --minify
 
 FROM  nginx:alpine
 LABEL maintainer Ruan

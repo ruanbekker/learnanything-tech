@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
         - name: learnanything
-          image: ruanbekker/learnanything:latest
+          imagePullPolicy: Always
+          image: ruanbekker/learnanything-tech:latest
           ports:
             - containerPort: 80

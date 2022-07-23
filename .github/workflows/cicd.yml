@@ -20,6 +20,8 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
+          build-args: |
+            APP_URL=lat.rbkr.xyz
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/learnanything-tech:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/learnanything-tech:${{ github.sha }}

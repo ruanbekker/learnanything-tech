@@ -29,7 +29,6 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/learnanything-tech:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/learnanything-tech:${{ steps.tags.outputs.sha_short }}
-            # ${{ secrets.DOCKERHUB_USERNAME }}/learnanything-tech:${{ github.sha }} # full sha
             
   deploy:
     name: Deploy

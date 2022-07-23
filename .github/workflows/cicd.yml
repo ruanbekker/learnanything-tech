@@ -33,8 +33,18 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
-
-      - name: Trigger deploy
+      - name: Set short git sha
+        id: vars
+        run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+        
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "IMAGE_TAG"
+          replace: ${{ steps.vars.outputs.sha_short }}
+          include: "kubernetes/*/01-deployment.yml"
+          
+      - name: Deploy
         uses: Consensys/kubernetes-action@master
         env:
           KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}

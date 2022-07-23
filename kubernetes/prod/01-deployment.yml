@@ -1,0 +1,21 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: learnanything
+  namespace: learnanything
+spec:
+  selector:
+    matchLabels:
+      app: lat-web
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: lat-web
+    spec:
+      containers:
+        - name: learnanything
+          image: ruanbekker/learnanything:latest
+          ports:
+            - containerPort: 80

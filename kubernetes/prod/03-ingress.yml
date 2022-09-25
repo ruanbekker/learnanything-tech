@@ -8,7 +8,7 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - host: lat.rbkr.xyz
+  - host: learnanything.tech
     http:
       paths:
       - pathType: Prefix

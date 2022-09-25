@@ -25,7 +25,7 @@ jobs:
         with:
           push: true
           build-args: |
-            APP_URL=http://lat.rbkr.xyz/
+            APP_URL=http://learnanything.tech/
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/learnanything-tech:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/learnanything-tech:${{ steps.tags.outputs.sha_short }}
